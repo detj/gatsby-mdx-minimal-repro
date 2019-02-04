@@ -17,7 +17,7 @@ export default ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div>{children}</div>
+        <div style={{ background: 'green' }}>{children}</div>
       </>
     )}
   />
